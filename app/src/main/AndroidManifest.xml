@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.shc_learing_app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcherschool"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcherschool_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SHCLearingApp"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".webview.WebviewAcitivity"
+            android:exported="false" />
+        <activity
+            android:name=".developer.DeveloperActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".result.ResultActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.quiz.ScorceActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.quiz.StartActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".studentlist.StudentList"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".contact.ContactForm"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".admission.RegistionForm"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".admission.AdmissionActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".phoneAuth.UpdateProfile"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".phoneAuth.ProfileActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".phoneAuth.Setprofile"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".phoneAuth.OtpAutheration"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login.ForgetPasswordActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".phoneAuth.ManiPhone"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login.singUp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".video.VideoLucture"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".website.WebSiteActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ebook.PdfViewerActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".fullimage.FullImageView"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ebook.EbookActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".phoneAuth.SplashScreen"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:enabled="true"
+            android:exported="true"
+            tools:ignore="Instantiatable">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcherschool" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/red" />
+    </application>
+
+</manifest>

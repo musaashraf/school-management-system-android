@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_video"
+        android:icon="@drawable/newvideo"
+        android:title="ভিডিও লেকচার" />
+
+    <item
+        android:id="@+id/navigation_ebook"
+        android:icon="@drawable/newbook"
+        android:title="বই" />
+
+    <!--    <item-->
+    <!--        android:id="@+id/navigation_studentlist"-->
+    <!--        android:icon="@drawable/mortarboard"-->
+    <!--        android:title="স্টুডেন্ট" />-->
+
+
+    <item
+        android:id="@+id/navigation_website"
+        android:icon="@drawable/newwebsite"
+        android:title="ওয়েবসাইট" />
+
+
+    <item
+        android:id="@+id/navigation_share"
+        android:icon="@drawable/newshare"
+        android:title="শেয়ার" />
+
+    <item
+        android:id="@+id/navigation_rate"
+        android:icon="@drawable/newrate"
+        android:title="রেটিং" />
+
+
+    <item
+        android:id="@+id/navigation_result"
+        android:icon="@drawable/newresult"
+        android:title="রেজাল্ট" />
+
+
+    <item
+        android:id="@+id/navigation_admission"
+        android:icon="@drawable/newadmission"
+        android:title="ভর্তি ফরম" />
+
+    <item
+        android:id="@+id/navigation_contact"
+        android:icon="@drawable/contact"
+        android:title="অভিযোগ" />
+
+    <item
+        android:id="@+id/navigation_developer"
+        android:icon="@drawable/newuser"
+        android:title="ডেভোলপার" />
+
+
+    <!--    <item android:id="@+id/navigation_theme"-->
+    <!--        android:title="Themes"-->
+    <!--        android:icon="@drawable/theme"/>-->
+
+
+    <!--    <item android:id="@+id/logout"-->
+    <!--        android:title="Logout"-->
+    <!--        android:icon="@drawable/newlogout"/>-->
+
+
+</menu>

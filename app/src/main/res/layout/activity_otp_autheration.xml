@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".phoneAuth.OtpAutheration">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/logo">
+
+    </ImageView>
+
+
+    <TextView
+        android:id="@+id/textHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:text="আপনি প্রাপ্ত ওটিপি প্রবেশ করুন"
+        android:textAlignment="center"
+        android:textColor="@color/titelcolorbd"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/getotp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/textHeading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:gravity="center_horizontal"
+        android:hint="এখানে ওটিপি প্রবেশ করান"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/black">
+
+    </EditText>
+
+
+    <TextView
+        android:id="@+id/changeNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/getotp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15sp"
+        android:text="ওটিপি পাইনি ? আপনার নম্বর পরিবর্তন করুন"
+        android:textColor="@color/titelcolorbd"
+        android:textSize="17sp">
+
+    </TextView>
+
+    <android.widget.Button
+        android:id="@+id/verifyOtp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/changeNumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@color/titelcolorbd"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="ওটিপি যাচাই করুন"
+        android:textColor="@color/white">
+
+    </android.widget.Button>
+
+
+    <ProgressBar
+        android:id="@+id/progressBarVerifyOtp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/verifyOtp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:visibility="invisible">
+
+    </ProgressBar>
+
+
+</RelativeLayout>

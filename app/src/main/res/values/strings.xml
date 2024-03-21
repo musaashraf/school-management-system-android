@@ -1,0 +1,81 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name"> SHS </string>
+
+
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+
+    <string name="headteacher">শিক্ষাই জাতির মেরুদন্ড। কাজেই সবার জন্য শিক্ষা অর্জন করা মানুষের মৌলিক অধিকার। এ অধিকারকে যথাযথভাবে বাস্তবায়নের মাধ্যমে বিশ্বের অনেক দেশ আজ উন্নত দেশ হিসেবে উন্নতির চরম শিখরে আরোহণ করেছে। এ ক্ষেত্রে বাংলাদেশ তার কাঙ্ক্ষিত লক্ষ্য অর্জনে সাধ্যমত চেষ্টা চালিয়ে যাচ্ছে। যুগের সাথে সংগতিপূর্ণ বিকাশের জন্য আমরা প্রত্যেকেই ভাবি নিজ নিজ সন্তানদের নিয়ে। প্রকৃতির সন্তান মানব শিশুকে পরিশুদ্ধ হতে হয়, পরিপুর্ণ হতে হয় স্বীয় সাধনায়। এ ক্ষেত্রে শিক্ষায় হলো আমাদের মূলমন্ত্র। আমরা দৃঢ়ভাবে বিশ্বাস করি শিক্ষার মৌলিক উদ্দেশ্য হলো আচরণের কাঙ্ক্ষিত পরিবর্তন। আর এ লক্ষ্যে তাদেরকে সৃজনশীল, স্বাধীন, সক্রিয় এবং দায়িত্বশীল সুনাগরিক হিসেবে গড়ে তোলা। এ জন্য প্রয়োজন যোগ্য শিক্ষকমন্ডলী এবং উপযুক্ত শিক্ষাদান পদ্ধতির সমন্বয়ে একটি শিক্ষাবান্ধব পরিবেশ। আমি বিনয়ের সাথে দাবী করি জয়পুরহাট সরকারি বালিকা উচ্চ বিদ্যালয়ে এসব কিছুর সমন্বয় ঘটানো সম্ভব হয়েছে। শিক্ষার্থীদের মজ্জাগত প্রতিভা সহজে বিকাশের জন্য প্রতিষ্ঠানটিতে রয়েছে সাধারণ শিক্ষার পাশাপাশি কম্পিউটার শিক্ষা, সাংস্কৃতিক, আনুষ্ঠানিক, খেলাধুলাসহ নানাবিধ শিক্ষা।
+
+শ্যামপুর উচ্চ বিদ্যালয়ের কম্পিউটার শিক্ষা ও কম্পিউটার প্রশিক্ষন ব্যাবস্থা খুবই শক্তিশালী যা ডিজিটাল বাংলাদেশ গড়তে আরও একধাপ এগিয়ে নিয়ে যাবে।</string>
+
+    <string name="about_collage1"> শ্যামপুর উচ্চ বিদ্যালয়, মনোরম পরিবেশ উন্মুক্ত ও শব্দহীন পরিবেশে গাছের সাথে সজ্জিত। এই উচ্চ বিদ্যালয়টি ১৫ শতকে বিজ্ঞান এবং মানবিক শাখা দিয়ে শুরু হয়েছিল। ৫.৫ একর জমির বিশাল এই প্রতিষ্ঠানের রয়েছে একাডেমিক ভবন, কর্মশালা, পরীক্ষাগার এবং সর্বোত্তম শিক্ষাগত সুবিধা। জ্ঞান অর্জনের জন্য ৪০০০টি বই  সমন্বিত গ্রন্থাগার, প্রতিষ্ঠানের প্রবেশপথের পাশের একটি মসজিদ এবং একটি বিশাল খেলার মাঠ রয়েছে।।</string>
+
+
+    <string name="about_collage12"> Shyampur High School Puranapoil  was one of them which is in a pleasant environment adorned with numerous plants, open and free from noise.  This High was started with Science and Humanities  in 1964.  There are academic buildings, Workshop/Laboratory and the best educational facilities in this large institution of 6.5 acres of land. There are a commodious library enriched with 5500 books for earning knowledge, a mosque next to the entrance of the institution, a large auditorium for cultural studies and a large playground.
+
+ </string>
+
+    <string name="about_collage">Shyampur High School Puranapoil  was one of them which is in a pleasant environment adorned with numerous plants, open and free from noise.  This High was started with Science and Humanities  in 1964.  There are academic buildings, Workshop/Laboratory and the best educational facilities in this large institution of 6.5 acres of land. There are a commodious library enriched with 5500 books for earning knowledge, a mosque next to the entrance of the institution, a large auditorium for cultural studies and a large playground.</string>
+
+    <string name="autolink_text"> নামঃ  আল-আমিন  \n  ইমেল: alaminsakib.cse@gmail.com \n  ফোন: +8801762868864 \n  ওয়েবসাইট: https://developer-alamin.web.app/
+
+    </string>
+    <string name="share_app_message">SHS Learing App</string>
+
+    <string-array name="theme">
+        <item>System Default</item>
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+
+
+    <!--AdMob Id-->
+    <string name="admob_app_id">ca-app-pub-4926661352443338~9871786862</string>
+    <!--    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>-->
+    <string name="admob_banner_ad">ca-app-pub-4926661352443338/2731663449</string>
+
+
+    <string name="about_content">Version: 1.0\nDeveloped by:-\alaminsakib.cse@gmail.com</string>
+    <string name="aboutInfo"> "আমার নাম আল-আমিন। আমি একজন অ্যান্ড্রয়েড অ্যাপ ডেভেলপার। অ্যান্ড্রয়েড অ্যাপ ডেভেলপমেন্টে আমার 2+ বছরেরও বেশি অভিজ্ঞতা রয়েছে। গ্রাহকদের সন্তুষ্টিই আমার চূড়ান্ত লক্ষ্য। আমি প্রতিদিন নতুন কিছু শেখার চেষ্টা করি।" </string>
+
+
+    <!--About Page-->
+    <string name="version_name">ভার্সন</string>
+    <string name="version_tag">১.০ </string>
+    <string name="company_name_title">কোম্পানি</string>
+    <string name="company_tag_name">Developer Al-Amin</string>
+    <string name="email_title">ইমেইল </string>
+    <string name="email_tag">alaminsakib.cse@gmail.com</string>
+    <string name="website_title">ওয়েবসাইট</string>
+    <string name="website_tag">https://developer-alamin.web.app/</string>
+    <string name="contact_title">যোগাযোগ</string>
+    <string name="contact_tag">+8801929284244</string>
+    <string name="privacy_title">প্রাইভেসি পলিসি</string>
+    <string name="privacy_tag">প্রাইভেসি পলিসি পড়তে ক্লিক করুন</string>
+    <string name="about_title">অ্যাবাউট্</string>
+    <string name="second_how_too">2. Share with SHS</string>
+    <string name="fourth_how_too">2. Open SHS</string>
+    <string name="tag_line">শ্যামপুর উচ্চ বিদ্যালয়, জয়পুরহাট</string>
+    <string name="school_name">শ্যামপুর উচ্চ বিদ্যালয়, জয়পুরহাট</string>
+
+
+    <!--About-->
+    <string name="about">About Us</string>
+    <string name="rate_the_app">Rate the app</string>
+    <string name="love_this_app">Love this app? Let us Know in the Google Play Store how we can make it even better</string>
+    <string name="share">Share</string>
+    <string name="share_the_app">Share the app with your friends and family</string>
+    <string name="company">Company</string>
+    <string name="email">Email</string>
+    <string name="version">Version</string>
+    <string name="website">Website</string>
+    <string name="contact">Contact</string>
+
+    <!--Don't Change language-->
+    <string name="todo">TODO</string>
+
+
+
+
+</resources>

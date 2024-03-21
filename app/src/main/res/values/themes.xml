@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SHCLearingApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        <item name="fontFamily">@font/bangla</item>
+
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryVariant">@color/red</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <style name="ProgressBar">
+        <item name="colorSecondary">@color/red</item>
+    </style>
+
+</resources>

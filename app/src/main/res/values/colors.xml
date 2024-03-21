@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#021B2A</color>
+    <!--    <color name="colorPrimaryDark">#1E5DFF</color>-->
+    <color name="colorPrimaryDark">#fe4e4e</color>
+    <color name="colorAccent">#f44236</color>
+
+    <color name="textTitle">#0C2EED</color>
+    <color name="textHistory">#333232</color>
+
+    <color name="textColor">#3f3b3b</color>
+    <color name="titleColor">#1b272c</color>
+    <color name="darkColor">#313131</color>
+    <color name="grey">#828080</color>
+    <color name="grey1">#4f4f4f</color>
+    <color name="grey2">#d6d6d6</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="departmentColor">#05487E</color>
+
+
+    <color name="searchwhite">#FFFFFF</color>
+    <color name="searchblack">#000000</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="deeppurple">#7c4dff</color>
+
+    <color name="titelcolorbd">#f44236</color>
+<!--    <color name="titelcolorbd">#20ad96</color>-->
+
+    <color name="headteacher">#c39d7d</color>
+
+    <color name="textcolor">#313131</color>
+
+
+    <color name="otp">#25d366</color>
+    <color name="red">#f44236</color>
+
+    <!--color palette-->
+    <color name="purple">#D4C4E3</color>
+    <color name="darkPurple">#9387F5</color>
+    <color name="blue">#A8DAF0</color>
+    <color name="peach">#F0C390</color>
+    <color name="green">#C3F09C</color>
+    <color name="orangeRed">#F3722C</color>
+    <color name="yellowOrange">#F8961E</color>
+    <color name="MangoTango">#F9844A</color>
+    <color name="maizeCrayola">#F9C74F</color>
+    <color name="card_purple">#8690B1</color>
+    <color name="card_yellow">#FFCC00</color>
+    <color name="card_red">#FF3B30</color>
+    <color name="card_violet">#FF9500</color>
+    <color name="card_blue">#5AC8FA</color>
+    <color name="card_green">#34C759</color>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/house"
+        android:title="হোম" />
+
+    <item
+        android:id="@+id/navigation_notice"
+        android:icon="@drawable/notice"
+        android:title="নোটিশ" />
+
+    <item
+        android:id="@+id/navigation_faculty_"
+        android:icon="@drawable/faculty"
+        android:title="শিক্ষক" />
+
+    <item
+        android:id="@+id/navigation_gallery"
+        android:icon="@drawable/image"
+        android:title="গ্যালারী" />
+
+</menu>
